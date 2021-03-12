@@ -14,7 +14,7 @@ static const unsigned int gappov = 10; /* vert outer gap between windows and scr
 static const int swallowfloating = 0; /* 1 means swallow floating windows by default */
 static const int smartgaps = 0; /* 1 means no outer gap when there is only one window */
 static const int showbar = 1; /* 0 means no bar */
-static const int topbar = 1;  /* 0 means bottom bar */
+static const int topbar = 0;  /* 0 means bottom bar */
 static const char *fonts[] = {
     "Fira Code:pixelsize=20:antialias=true:autohint=true",
     "Space Mono:pixelsize=20:antialias=true:autohint=true",
